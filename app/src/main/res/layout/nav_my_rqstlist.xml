@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="30dp"
+        android:background="@drawable/rounded_button_">
+
+        <TextView
+            android:id="@+id/navRqstGrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/navRqstAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/navRqstGrp"
+            android:text="Amount"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

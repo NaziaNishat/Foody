@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "436507403016",
+    "firebase_url": "https://despatpro.firebaseio.com",
+    "project_id": "despatpro",
+    "storage_bucket": "despatpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436507403016:android:fe4cc4c8e8de8ec8",
+        "android_client_info": {
+          "package_name": "com.example.nazia_000.DesPatPro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436507403016-fh5n2c0qcuv257vo04fu3tlf1if61u4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nazia_000.DesPatPro",
+            "certificate_hash": "d0393a32a772167924ab35e22b2233dc03b5ec5b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAymE24FcrcHNLKYCNxANoYywfE8tkeg_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436507403016-kf0ohd235e73ek5415j86vmjft11iqnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homePack.infoActivity"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/infoDonate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When to donate blood?"
+        android:layout_marginBottom="15dp"
+        />
+    <TextView
+        android:id="@+id/infodonateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoDonate"
+        android:paddingLeft="15dp"
+        android:text="After 3 months from last donated"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/infoWt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infodonateTime"
+        android:text="Minimum required weight to donate blood"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/infoWtAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoWt"
+        android:paddingLeft="15dp"
+        android:text="At least 110 pounds or 45 kg"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/infoMinAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoWtAns"
+        android:text="Minimum age to donate blood?"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/infoMinAgeAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoMinAge"
+        android:paddingLeft="15dp"
+        android:text="Minimum required age is 17 years"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/infoMaxAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoMinAgeAns"
+        android:text="Maximum age to donate blood?"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/infoMaxAgeAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/infoMaxAge"
+        android:text="Maximum weight is 65 years"/>
+
+</RelativeLayout>

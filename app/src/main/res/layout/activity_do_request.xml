@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="30dp"
+    tools:context=".homePack.doRequestActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/doRequName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbgdo"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user1"
+            android:hint="Name"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/doRequNmbr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/doRequName"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/telephone"
+            android:padding="10dp"
+            android:background="@drawable/roundbgdo"
+            android:hint="Contact Number"
+            android:inputType="number"/>
+
+
+        <EditText
+            android:id="@+id/doRequAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/doRequNmbr"
+            android:padding="10dp"
+            android:background="@drawable/roundbgdo"
+            android:hint="Amount of blood needed in bag:"
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/doRequBloodGrp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/doRequAmount"
+            android:background="@drawable/roundbgdo"
+            android:layout_marginTop="20dp" >
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/doRequButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/doRequBloodGrp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/roundbg"
+            android:layout_marginTop="80dp"
+            android:text="REQUEST"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

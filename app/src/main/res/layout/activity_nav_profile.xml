@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user64"/>
+
+    <TextView
+        android:id="@+id/myProfName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myImg"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Username : User"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myProfName"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="E-mail : user@gmail.com"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myNmbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myEmail"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Contact Number : 01111111111"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myNmbr"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Address : Sylhet"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myBldGrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myAddress"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Blood Group : A+"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/myProfUp"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/myBldGrp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundbg"
+        android:text="UPDATE"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
